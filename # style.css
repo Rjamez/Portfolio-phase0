@@ -1,0 +1,82 @@
+#navbar {
+    padding: 15px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border-bottom: 2px solid #3e8e41; /* Darker green border */
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: auto; 
+    width: 90vw;
+    margin: 20px auto; 
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 30px; 
+    background-color: #fafafa; /* Light background for landing */
+}
+
+.landing div {
+    width: 45vw;
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    margin: 10px; 
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.landing div:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.landing .right {
+    background-color: #ff5722; /* Bright orange background */
+    color: white; /* White text */
+}
+
+.project {
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px; 
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333; /* Dark background */
+    color: #f4f4f4; /* Light text */
+    padding: 30px; 
+    text-align: center;
+    border-top: 2px solid #444; /* Slightly lighter border */
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2196F3; /* Blue background */
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none; 
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.contact-button:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+}
+
+@media (max-width: 600px) {
+    .landing {
+        grid-template-columns: 1fr; 
+    }
+}
