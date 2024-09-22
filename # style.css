@@ -15,7 +15,7 @@
     grid-template-columns: auto auto;
     height: auto; 
     width: 90vw;
-    margin: 20px auto; 
+    margin: 40px auto; /* Increased margin for more spacing */
     align-items: center;
     justify-content: space-around;
     border: 1px solid #ccc; 
@@ -25,12 +25,12 @@
 }
 
 .landing div {
-    width: 45vw;
+    width: 45vw; /* Maintained width for two-column layout */
     padding: 20px; 
     border: 1px solid #ddd; 
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
-    margin: 10px; 
+    margin: 20px; /* Adjusted margin for better spacing */
     transition: transform 0.3s; /* Smooth hover effect */
 }
 
@@ -47,7 +47,7 @@
     border: 1px solid #ddd; 
     border-radius: 8px; 
     padding: 20px; 
-    margin: 20px; 
+    margin: 30px; /* Increased margin for projects */
     background-color: #ffffff; /* White background */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -77,6 +77,7 @@
 
 @media (max-width: 600px) {
     .landing {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr; /* Single column on small screens */
+        margin: 20px auto; /* Reduced margin for mobile */
     }
 }
