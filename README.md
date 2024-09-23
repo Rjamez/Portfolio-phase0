@@ -17,7 +17,7 @@ This portfolio showcases my work as a [Your Profession/Field, e.g., Web Develope
 
 - HTML
 - CSS
-
+- JS
 ## Features
 
 - Responsive design
